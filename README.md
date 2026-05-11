@@ -1,37 +1,44 @@
-🚀 Intelligent GitHub Automation Suite
+# 🚀 Intelligent GitHub Automation Suite
+
 <div align="center">
-🎙️ Voice-Controlled Repository Creation
-📊 AI-Powered Repository Analysis
-💬 RAG-Based Repository Q&A Chatbot
+
+### 🎙️ Voice-Controlled Repository Creation  
+### 📊 AI-Powered Repository Analysis  
+### 💬 RAG-Based Repository Q&A Chatbot  
 
 An end-to-end AI automation ecosystem that transforms spoken GitHub commands into fully analyzed, documented, and queryable repositories.
 
 <br>
 
-
-
-
-
-
-
-
-
+![Python](https://img.shields.io/badge/Python-3.9+-blue?style=for-the-badge&logo=python)
+![AWS](https://img.shields.io/badge/AWS-Bedrock-orange?style=for-the-badge&logo=amazonaws)
+![Gemini](https://img.shields.io/badge/Google-Gemini-red?style=for-the-badge&logo=google)
+![FAISS](https://img.shields.io/badge/VectorDB-FAISS-green?style=for-the-badge)
+![Streamlit](https://img.shields.io/badge/UI-Streamlit-ff4b4b?style=for-the-badge&logo=streamlit)
 
 </div>
-📌 Overview
 
-The Intelligent GitHub Automation Suite is a multi-system AI platform designed to automate the complete lifecycle of GitHub repository management, analysis, and knowledge extraction.
+---
 
-The project combines three independently designed AI systems into one seamless workflow:
+# 📌 Overview
 
-System	Purpose
-🎙️ System 1	Voice-controlled GitHub automation
-📊 System 2	AI-powered repository analysis & documentation
-💬 System 3	RAG-based repository Q&A chatbot
+The **Intelligent GitHub Automation Suite** is a multi-system AI platform designed to automate the complete lifecycle of GitHub repository management, analysis, and knowledge extraction.
+
+The project combines **three independently designed AI systems** into one seamless workflow:
+
+| System | Purpose |
+|---|---|
+| 🎙️ System 1 | Voice-controlled GitHub automation |
+| 📊 System 2 | AI-powered repository analysis & documentation |
+| 💬 System 3 | RAG-based repository Q&A chatbot |
 
 Once a repository is created through voice commands, the repository URL is automatically distributed to cloud-hosted systems for deep analysis and semantic querying.
 
-🏗️ System Architecture
+---
+
+# 🏗️ System Architecture
+
+```text
 ┌──────────────────────────────────────────────────────────────┐
 │                    USER (Local Machine)                      │
 │                                                              │
@@ -67,7 +74,7 @@ Once a repository is created through voice commands, the repository URL is autom
 
 The user launches the Voice Assistant and speaks commands such as:
 
-"Create repository AI-Automation-Suite"
+Create repository AI-Automation-Suite
 
 The system performs:
 
@@ -354,4 +361,4 @@ python-pptx
 <div align="center">
 ⭐ Built with Voice + Cloud + AI
 If you found this project useful, consider giving it a star ⭐
-</div>
+</div> ```
