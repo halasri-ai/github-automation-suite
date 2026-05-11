@@ -1,0 +1,135 @@
+# ========================
+# .gitignore for GitHub Voice Assistant
+# ========================
+
+# ========================
+# CRITICAL - Secrets & Credentials
+# ========================
+.env
+*.env
+.env.local
+.env.production
+
+# GitHub token files
+current_repo.txt
+
+# ========================
+# Python
+# ========================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# ========================
+# Project-Specific
+# ========================
+# Staging folder for pushes
+push/
+
+# Local cloned repositories
+local_repo/
+
+# Temporary staging directory
+_staging_push/
+_temp_action_push/
+
+# Output images
+Output_Images/
+
+# ========================
+# AI/ML Models (Large Files)
+# ========================
+# Hugging Face cache
+*.bin
+*.pt
+*.pth
+*.ckpt
+transformers_cache/
+.cache/
+
+# Model files
+models/
+*.model
+
+# ========================
+# IDE / Editors
+# ========================
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter
+.ipynb_checkpoints
+
+# ========================
+# OS
+# ========================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+.directory
+
+# ========================
+# Logs & Runtime
+# ========================
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+
+# ========================
+# Testing
+# ========================
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+
+# ========================
+# Documentation (Generated)
+# ========================
+# Keep PDFs and docs in repo, but exclude if auto-generated
+# Uncomment if needed:
+# *.pdf
+# *.docx

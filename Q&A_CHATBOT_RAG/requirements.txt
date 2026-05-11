@@ -1,0 +1,17 @@
+# Ignore environment keys
+.env
+
+# Ignore Python cache and temp files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+.DS_Store
+
+# Ignore Streamlit cache
+.streamlit/
+
+# Ignore local temp folders
+temp/
+tmp/

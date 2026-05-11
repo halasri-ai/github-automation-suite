@@ -1,0 +1,27 @@
+# --- Core Utilities ---
+python-dotenv
+pillow
+requests
+json5
+
+# --- Document Generation ---
+reportlab
+python-pptx
+matplotlib
+
+# --- AWS & AI Integration ---
+boto3
+botocore
+google-generativeai
+
+# --- LangChain (AI Orchestration) ---
+langchain
+langchain-aws
+langchain-core
+langchain-community
+langchain-text-splitters
+
+# --- CLI / UX Enhancements ---
+tqdm
+rich
+colorama
